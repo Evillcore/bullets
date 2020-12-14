@@ -1474,15 +1474,6 @@ body.ie ._ibg img {
   z-index: 0;
 }
 
-.diesel__slider {
-  /* min-width: 0px; */
-  /* .swiper-slide-active {
-           display: flex;
-           align-items: center;
-           justify-content: center;
-       } */
-}
-
 .diesel__slide {
   cursor: pointer;
   display: -webkit-box;
@@ -1494,8 +1485,6 @@ body.ie ._ibg img {
   /* max-width: 100px; */
   /* padding: 0px 0px 0px 100px; */
   position: relative;
-  height: 100%;
-  width: 100%;
 }
 
 .diesel__slide:hover .diesel__hv {
@@ -1789,14 +1778,15 @@ body.ie ._ibg img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin: 0px 10px;
   overflow: hidden;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 150px;
           flex: 0 0 150px;
-  -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);

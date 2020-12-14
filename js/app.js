@@ -1645,8 +1645,8 @@ let slider_about = new Swiper('.diesel__slider', {
 	*/
 	observer: true,
 	observeParents: true,
-	slidesPerView: 3,
-	spaceBetween: 300,
+	slidesPerView: 1,
+	spaceBetween: 50,
 	autoHeight: true,
 	speed: 800,
 	//touchRatio: 0,
@@ -1702,13 +1702,13 @@ let slider_about = new Swiper('.diesel__slider', {
 //BildSlider
 
 new Swiper('.main-featured', {
-	/*
-	effect: 'fade',
+	
+	/* effect: 'fade',
 	autoplay: {
-		delay: 3000,
+		delay: 1000,
 		disableOnInteraction: false,
-	},
-	*/
+	}, */
+	
 	observer: true,
 	observeParents: true,
 	slidesPerView: 3,
@@ -1725,13 +1725,14 @@ new Swiper('.main-featured', {
 		el: '.main-featured__dotts',
 		dynamicBullets:true,
 		clickable: true,
+		
 	},
 	
     direction: 'vertical',
 	// Arrows
 	navigation: {
-		nextEl: '.main-featured-button-next',
-		prevEl: '.main-featured-button-prev',
+		nextEl: '.main-featured-next',
+		prevEl: '.main-featured-prev',
 	},
 	
 	/* breakpoints: {
